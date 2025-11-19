@@ -60,19 +60,12 @@ git clone https://github.com/your-org/ADK_Project.git
 cd ADK_Project
 ```
 
-- (Optional) If you want to run the Notion MCP server from source, clone it and install Node deps:
-
-```powershell
-# clone the Notion MCP server (optional)
-git clone https://github.com/CHARLIE1210-A/adk_projects.git
-```
-
-2. Create and activate a Python virtual environment, then install Python dependencies
+1. Create and activate a Python virtual environment, then install Python dependencies
 
 If you use `uv` as your Python package manager and venv helper, create and activate the virtual environment and install packages with:
 
 ```powershell
-# create and activate a venv using uv (example)
+# create and activate a venv using uv 
 uv venv .venv
 
 # install the local package (reads pyproject.toml)
@@ -89,8 +82,6 @@ python -m venv .venv
 # upgrade pip and install the local package (uses pyproject.toml)
 pip install --upgrade pip
 pip install -e .
-# or if you have a requirements file:
-# pip install -r requirements.txt
 ```
 
 3. Ensure Node.js / npx is available
