@@ -120,7 +120,7 @@ From the `notion_mcp_agent` package folder you can run the bundled a2a server (t
 
 ```powershell
 cd notion_mcp_agent
-uv run __main.py
+uv run __main__.py
 ```
 
 If `uv` is not available, run with `uvicorn`:
