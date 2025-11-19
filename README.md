@@ -56,8 +56,10 @@ For production, you can also run the MCP server independently (for example on a 
 
 ```powershell
 # clone the project
-git clone https://github.com/your-org/ADK_Project.git
-cd ADK_Project
+git clone https://github.com/CHARLIE1210-A/adk_projects.git
+```
+```powershell
+cd adk_projects
 ```
 
 1. Create and activate a Python virtual environment, then install Python dependencies
